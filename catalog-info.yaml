@@ -10,3 +10,6 @@ spec:
   type: documentation
   lifecycle: production
   owner: group:engineering
+  system: testing
+  dependsOn:
+    -component: default/www-artist
